@@ -10,4 +10,5 @@ Visualisasi menggunakan library **SFML**.
 ## 🚀 Cara Menjalankan
 1. Clone repository
    ```bash
-   git clone https://github.com/rozaqnh168/physics-simulation.git
+   git clone https://github.com/rozaqnh168/Struktur_Data.git
+
