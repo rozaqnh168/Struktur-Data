@@ -6,8 +6,8 @@ Ball::Ball(float x, float y,float radius,sf::Color color){
     shape.setOrigin(radius, radius); // Center origin
     shape.setPosition(x, y);
 
-    velocity.x = (rand() % 100 - 50) / 100.0f;
-    velocity.y = (rand() % 100 - 50) / 100.0f;
+    velocity.x = (rand() % 200 - 100) / 100.0f;
+    velocity.y = (rand() % 200 - 100) / 100.0f;
 
 }
 
