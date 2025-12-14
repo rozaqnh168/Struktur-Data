@@ -77,14 +77,17 @@ Proyek ini mengimplementasikan dua algoritma deteksi tabrakan:
 cd final
 make
 ```
-Makefile akan mengkompilasi file di src/ dan menghasilkan executable "myapp" di root folder.
+Makefile akan mengkompilasi file di src/ dan menghasilkan executable "myapp".
 ### Running
 ```bash
-Jalankan executable: ./myapp [jumlah_bola]
+./myapp [jumlah_bola]
 Contoh: ./myapp 100 untuk 100 bola (default 50).
-Window simulasi akan muncul. Tekan Space untuk beralih antara Brute Force dan Quadtree.
-Tutup window untuk keluar. FPS dan jumlah bola ditampilkan di layar.
 ```
+- Window simulasi akan muncul.
+- Tekan Space untuk beralih antara Brute Force dan Quadtree.
+- Tutup window untuk keluar.
+- FPS dan jumlah bola ditampilkan di layar.
+
 ## Progress (Logbook)
 27/11/2025 (Inisialisasi)
 - Membuat struktur proyek dasar, implementasi kelas Ball dengan update dan draw.
@@ -104,6 +107,7 @@ Tutup window untuk keluar. FPS dan jumlah bola ditampilkan di layar.
 30/11/2025 (Testing):
 
 - Testing dengan berbagai jumlah bola, memperbaiki bug pada boundary collision dan overlap. Proyek siap untuk distribusi.
+
 
 
 
