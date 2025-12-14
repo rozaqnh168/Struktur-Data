@@ -112,6 +112,11 @@ Contoh: ./myapp 100 untuk 100 bola (default 50).
 
 
 
+https://github.com/user-attachments/assets/7f81061a-9707-4108-a0af-ccd2de941e5f
+
+
+
+
 
 
 
