@@ -93,7 +93,7 @@ Contoh: ./myapp 100 untuk 100 bola (default 50).
   
 28/11/2025 (Brute Force): 
 
-- Menambahkan algoritma Brute Force untuk deteksi tabrakan, termasuk resolusi fisika.
+- Menambahkan algoritma Brute Force untuk deteksi tabrakan.
 
 29/11/2025 (Quadtree):
 
@@ -105,7 +105,7 @@ Contoh: ./myapp 100 untuk 100 bola (default 50).
 
 30/11/2025 (Testing):
 
-- Testing dengan berbagai jumlah bola, memperbaiki bug pada boundary collision dan overlap. Proyek siap untuk distribusi.
+- Testing dengan berbagai jumlah bola, memperbaiki bug pada boundary collision dan overlap.
 
 
 
@@ -113,6 +113,7 @@ Contoh: ./myapp 100 untuk 100 bola (default 50).
 
 
 https://github.com/user-attachments/assets/7f81061a-9707-4108-a0af-ccd2de941e5f
+
 
 
 
