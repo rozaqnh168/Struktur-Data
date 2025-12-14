@@ -87,26 +87,24 @@ Tutup window untuk keluar. FPS dan jumlah bola ditampilkan di layar.
 ```
 ## Progress (Logbook)
 27/11/2025 (Inisialisasi)
-
-
 - Membuat struktur proyek dasar, implementasi kelas Ball dengan update dan draw.
   
 28/11/2025 (Brute Force): 
 
-
 - Menambahkan algoritma Brute Force untuk deteksi tabrakan, termasuk resolusi fisika.
+
 29/11/2025 (Quadtree):
 
-  
 - Implementasi Quadtree untuk optimasi, dengan insert, retrieve, dan draw untuk debugging.
+
 30/11/2025 (Integrasi):
 
-  
 - Mengintegrasikan kedua algoritma di main.cpp, menambahkan toggle dengan Space dan UI untuk FPS/mode.
+
 30/11/2025 (Testing):
 
-  
 - Testing dengan berbagai jumlah bola, memperbaiki bug pada boundary collision dan overlap. Proyek siap untuk distribusi.
+
 
 
 
