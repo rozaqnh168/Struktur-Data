@@ -17,7 +17,7 @@ Proyek ini merupakan final project dari mata kuliah **Struktur Data dan Analisis
   - [Build dan Running Proyek](#build-dan-running-proyek)
   - [Progress](#progress)
 ## Pendahuluan
-Proyek ini adalah simulasi tabrakan bola 2D menggunakan library SFML (Simple and Fast Multimedia Library). Simulasi ini mendemonstrasikan dua algoritma deteksi tabrakan: Brute Force dan Quadtree. Pengguna dapat mengalihkan antara kedua algoritma dengan menekan tombol Space, dan melihat perbedaan performa dalam hal FPS saat jumlah bola ditingkatkan.
+Proyek ini adalah simulasi tabrakan bola 2D menggunakan library SFML (Simple and Fast Multimedia Library) dan Makefile. Simulasi ini mendemonstrasikan dua algoritma deteksi tabrakan: Brute Force dan Quadtree. Pengguna dapat mengalihkan antara kedua algoritma dengan menekan tombol Space, dan melihat perbedaan performa dalam hal FPS saat jumlah bola ditingkatkan.
 
 ## Struktur Proyek
 Struktur proyek terdiri dari beberapa file C++ sebagai berikut:
@@ -42,11 +42,11 @@ final/
 └── README.md                 # Dokumentasi proyek
 ```
 - **Ball.cpp**: Implementasi kelas Ball, yang mewakili bola dengan properti seperti posisi, kecepatan, radius, dan warna. Termasuk metode untuk update, draw, dan deteksi tabrakan dengan batas.
-- **Ball.hpp**: Header file untuk kelas Ball (konten biner, tidak ditampilkan di sini).
+- **Ball.hpp**: Header file untuk kelas Ball
 - **Bruteforce.cpp**: Implementasi algoritma Brute Force untuk deteksi tabrakan antar bola. Termasuk fungsi untuk memeriksa tabrakan dan menyelesaikannya menggunakan fisika momentum.
-- **Bruteforce.hpp**: Header file untuk namespace Physics (konten biner, tidak ditampilkan di sini).
-- **Quadtree.cpp**: Implementasi struktur data Quadtree untuk optimasi deteksi tabrakan. Termasuk metode untuk insert, retrieve, dan draw quadtree untuk debugging.
-- **Quadtree.hpp**: Header file untuk kelas Quadtree (konten biner, tidak ditampilkan di sini).
+- **Bruteforce.hpp**: Header file untuk namespace Physics
+- **Quadtree.cpp**: Implementasi struktur data Quadtree untuk optimasi deteksi tabrakan. Termasuk metode untuk insert, retrieve, dan draw quadtree.
+- **Quadtree.hpp**: Header file untuk kelas Quadtree.
 - **main.cpp**: File utama yang menjalankan simulasi. Mengatur window SFML, membuat bola, menangani input, dan menggambar elemen UI seperti FPS dan mode algoritma.
 
 
@@ -55,17 +55,16 @@ Proyek ini mengimplementasikan dua algoritma deteksi tabrakan:
 
 ### Brute Force
 - Algoritma sederhana yang memeriksa setiap pasangan bola untuk tabrakan.
-- Kompleksitas waktu -O(n²), cocok untuk jumlah bola kecil (misalnya <100).
-- Ketika tabrakan terdeteksi, posisi dikoreksi dan kecepatan dihitung ulang menggunakan rumus momentum 1D.
+- Kompleksitas waktu O(n²), cocok untuk jumlah bola kecil (misalnya <100).
+- Ketika tabrakan terdeteksi, posisi dikoreksi dan kecepatan dihitung ulang menggunakan rumus momentum.
 ### Quadtree
 - Struktur data spasial yang membagi ruang menjadi kuadran untuk mengurangi jumlah pemeriksaan tabrakan.
 - Kompleksitas waktu rata-rata O(n log n), lebih efisien untuk jumlah bola besar.
 - Bola dimasukkan ke quadtree, lalu kandidat tabrakan diambil untuk pemeriksaan lebih lanjut.
-- Pengguna dapat beralih antara algoritma dengan menekan Space, dan melihat visualisasi quadtree saat mode aktif.
 
 ## Dependensi
 - SFML: Library multimedia untuk rendering grafis dan handling input.
-- C++ Compiler: Compiler yang mendukung C++11 atau lebih baru, seperti g++ (GCC) atau clang.
+- C++ Compiler: Compiler yang mendukung C++11 atau lebih baru.
 - Font: File "arial.ttf" diperlukan untuk teks UI.
 
 ## Build dan Running Proyek
@@ -107,6 +106,7 @@ Contoh: ./myapp 100 untuk 100 bola (default 50).
 30/11/2025 (Testing):
 
 - Testing dengan berbagai jumlah bola, memperbaiki bug pada boundary collision dan overlap. Proyek siap untuk distribusi.
+
 
 
 
