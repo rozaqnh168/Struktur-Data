@@ -15,7 +15,7 @@ Proyek ini merupakan final project dari mata kuliah **Struktur Data dan Analisis
   - [Algoritma](#algoritma)
   - [Dependensi](#dependensi)
   - [Build dan Running Proyek](#build-dan-running-proyek)
-  - [Progress (Logbook)](#Progress-(Logbook))
+  - [Progress (Logbook)](#progress-(logbook))
 ## Pendahuluan
 Proyek ini adalah simulasi tabrakan bola 2D menggunakan library SFML (Simple and Fast Multimedia Library). Simulasi ini mendemonstrasikan dua algoritma deteksi tabrakan: Brute Force dan Quadtree. Pengguna dapat mengalihkan antara kedua algoritma dengan menekan tombol Space, dan melihat perbedaan performa dalam hal FPS saat jumlah bola ditingkatkan.
 
@@ -107,6 +107,7 @@ Contoh: ./myapp 100 untuk 100 bola (default 50).
 30/11/2025 (Testing):
 
 - Testing dengan berbagai jumlah bola, memperbaiki bug pada boundary collision dan overlap. Proyek siap untuk distribusi.
+
 
 
 
