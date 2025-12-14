@@ -1,4 +1,4 @@
-# Final Project Struktur Data Ball Collision Simulation (C++ with SFML)
+# Final Project Struktur Data Ball Collision Simulation
 
 Proyek ini merupakan final project dari mata kuliah **Struktur Data dan Analisis Algoritma** yang dibimbing oleh `Arta Kusuma Hernanda, S.T., M.T`. Tugas ini bertujuan untuk membuat **collision simulation** menggunakan bahasa pemrograman **C++** dan library **SFML**.
 
@@ -8,14 +8,14 @@ Proyek ini merupakan final project dari mata kuliah **Struktur Data dan Analisis
 
 ## Daftar Isi
 
-- [Final Project Struktur Data Ball Collision Simulation (C++ with SFML)](#final-project-struktur-data-ball-collision-simulation-(c++-with-sfml))
+- [Final Project Struktur Data Ball Collision Simulation](#final-project-struktur-data-ball-collision-simulation)
   - [Daftar Isi](#daftar-isi)
   - [Pendahuluan](#Pendahuluan)
   - [Struktur Proyek](#struktur-proyek)
   - [Algoritma](#algoritma)
   - [Dependensi](#dependensi)
   - [Build dan Running Proyek](#build-dan-running-proyek)
-  - [Progress (Logbook)](#progress-(logbook))
+  - [Progress](#progress)
 ## Pendahuluan
 Proyek ini adalah simulasi tabrakan bola 2D menggunakan library SFML (Simple and Fast Multimedia Library). Simulasi ini mendemonstrasikan dua algoritma deteksi tabrakan: Brute Force dan Quadtree. Pengguna dapat mengalihkan antara kedua algoritma dengan menekan tombol Space, dan melihat perbedaan performa dalam hal FPS saat jumlah bola ditingkatkan.
 
@@ -88,7 +88,7 @@ Contoh: ./myapp 100 untuk 100 bola (default 50).
 - Tutup window untuk keluar.
 - FPS dan jumlah bola ditampilkan di layar.
 
-## Progress (Logbook)
+## Progress
 27/11/2025 (Inisialisasi)
 - Membuat struktur proyek dasar, implementasi kelas Ball dengan update dan draw.
   
@@ -107,6 +107,7 @@ Contoh: ./myapp 100 untuk 100 bola (default 50).
 30/11/2025 (Testing):
 
 - Testing dengan berbagai jumlah bola, memperbaiki bug pada boundary collision dan overlap. Proyek siap untuk distribusi.
+
 
 
 
