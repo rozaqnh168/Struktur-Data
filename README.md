@@ -73,7 +73,6 @@ Proyek ini mengimplementasikan dua algoritma deteksi tabrakan:
 - Proyek ini menggunakan Makefile untuk proses kompilasi.
 - Langkah Build:
 ```bash
-cd src
 make
 ```
 Makefile akan mengkompilasi file di src/ dan menghasilkan executable "myapp".
@@ -113,6 +112,7 @@ Contoh: ./myapp 100 untuk 100 bola (default 50).
 
 
 https://github.com/user-attachments/assets/7f81061a-9707-4108-a0af-ccd2de941e5f
+
 
 
 
